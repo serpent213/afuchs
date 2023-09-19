@@ -11,8 +11,12 @@
 
   https://fonts.google.com/noto
   -->
-  <LoadFontfile name="NotoSans-Regular" filename="NotoSans-Regular.ttf" />
-  <LoadFontfile name="NotoSans-Bold" filename="NotoSans-Bold.ttf" />
+  <LoadFontfile name="NotoSans-Regular"
+    filename="NotoSans-Regular.ttf"
+    mode="harfbuzz" />
+  <LoadFontfile name="NotoSans-Bold"
+    filename="NotoSans-Bold.ttf"
+    mode="harfbuzz" />
 
   <DefineFontfamily name="header" fontsize="9" leading="11">
     <Regular fontface="NotoSans-Regular" />
