@@ -62,10 +62,26 @@
 
   <!-- Inhalte -->
   <Record element="data">
+    <!-- Tabellen -->
     <ProcessNode select="*" />
+
+    <!-- Anhang: Inhaltsabhängiger Hash-Code und Datum der Erzeugung -->
+    <PlaceObject area="content">
+      <Textblock fontfamily="footer">
+        <Paragraph>
+          <Value>Hash-Code: </Value>
+          <Value select="sd:md5(string-join(., '|'))" />
+        </Paragraph>
+        <Paragraph>
+          <Value>Datum: </Value>
+          <Value select="@build-date" />
+        </Paragraph>
+      </Textblock>
+    </PlaceObject>
   </Record>
 
   <Record element="table">
+    <!-- <Message select="concat('current-row: ', sd:current-row()), '/', sd:number-of-rows()" /> -->
     <PlaceObject area="content">
       <Textblock fontfamily="title">
         <Paragraph>

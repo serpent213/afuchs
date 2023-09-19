@@ -19,7 +19,7 @@ Diese können einfach heruntergeladen und ausgedruckt werden.
 
 ## Anpassen
 
-### Speedata Publisher
+### speedata Publisher
 
 [speedata Publisher Download](https://download.speedata.de)
 
@@ -30,6 +30,10 @@ Diese können einfach heruntergeladen und ausgedruckt werden.
 ### CSV-Dateien
 
 `*.csv`
+
+### PDF erzeugen
+
+`sp` im Wurzelverzeichnis ausführen.
 
 ## Quellen
 

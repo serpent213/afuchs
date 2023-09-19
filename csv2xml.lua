@@ -57,6 +57,20 @@ end
 -- The output root element
 mergedtabs._name = "data"
 
+-- Inject the current date in German format
+local germanMonths = {
+  "Januar", "Februar", "März", "April", "Mai", "Juni",
+  "Juli", "August", "September", "Oktober", "November", "Dezember"
+}
+
+local currentDate = os.date("*t")
+local germanFormattedDate =
+  currentDate.day .. ". " ..
+  germanMonths[currentDate.month] .. " " ..
+  currentDate.year
+
+mergedtabs["build-date"] = germanFormattedDate
+
 -- Create a file named `data.xml`.
 ok, err = xml.encode_table(mergedtabs)
 if not ok then
