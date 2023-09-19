@@ -1,0 +1,32 @@
+Schlüssel;Bedeutung
+QRA;Der Name meiner Funkstelle ist …
+QRB;Die Entfernung zwischen unseren Funkstellen beträgt ungefähr … Seemeilen (oder Kilometer).
+QRG;Ihre genaue Frequenz (oder die genaue Frequenz von) ist … kHz (oder MHz).
+QRH;Ihre Frequenz schwankt.
+QRI;Der Ton Ihrer Aussendung ist 1. gut 2. veränderlich 3. schlecht.
+QRK;Die Verständlichkeit Ihrer Zeichen (oder der Zeichen von …) ist 1. schlecht 2. mangelhaft 3. ausreichend 4. gut 5. ausgezeichnet.
+QRL;Ich bin beschäftigt (mit …). Bitte nicht stören.
+QRM;Ich werde (1. nicht 2. schwach 3. mäßig 4. stark 5. sehr stark) gestört.
+QRN;Ich werde durch atmosphärische Störungen (1. nicht 2. schwach 3. mäßig 4. stark 5. sehr stark) beeinträchtigt.
+QRO;Erhöhen Sie die Sendeleistung.
+QRP;Vermindern Sie die Sendeleistung.
+QRS;Geben Sie langsamer (… Wörter pro Minute)
+QRT;Stellen Sie die Übermittlung ein.
+QRU;Ich habe nichts für Sie.
+QRV;Ich bin bereit.
+QRX;Ich werde Sie um … Uhr (auf … kHz (oder MHz)) wieder rufen.
+QRZ;Sie werden von … (auf … kHz (oder MHz)) gerufen.
+QSA;Ihre Zeichen (oder die Zeichen von …) sind 1. kaum 2. schwach 3. ziemlich gut 4. gut 5. sehr gut hörbar.
+QSB;Die Stärke Ihrer Zeichen schwankt.
+QSD;Ihre Zeichen sind verstümmelt.
+QSK;Ich kann Sie zwischen meinen Zeichen hören. Sie dürfen mich während meiner Übermittlung unterbrechen.
+QSL;Ich gebe Ihnen eine Empfangsbestätigung.
+QSO;Ich kann mit … unmittelbar (oder durch Vermittlung von …) verkehren.
+QSP;Ich werde an … vermitteln.
+QSV;Senden Sie eine Reihe V auf dieser Frequenz (oder auf … kHz (oder MHz)).
+QSX;Ich höre … (Name und/oder Rufzeichen) auf … (Frequenz, Bänder oder Kanäle).
+QSY;Gehen Sie zum Senden auf eine andere Frequenz über (oder auf … kHz (oder MHz)).
+QTC;Ich habe … Meldungen für Sie (oder für …).
+QTF;Ihre Position war nach den Peilungen meiner Funkstellen … (Lage und ggf. Uhrzeit).
+QTH;Mein Standort ist … Breite, … Länge (oder nach anderer Angabe).
+QTR;Es ist genau … Uhr.

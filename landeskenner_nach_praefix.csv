@@ -1,0 +1,316 @@
+Präfix;Land
+AA–AL;Vereinigte Staaten von Amerika (USA)
+AM–AO;Spanien
+AP–AS;Pakistan
+AT–AW;Indien
+AX;Australien
+AY–AZ;Argentinien
+A2;Botswana
+A3;Tonga
+A4;Oman
+A5;Bhutan
+A6;Vereinigte Arabische Emirate
+A7;Katar
+A8;Liberia
+A9;Bahrain
+B;Volksrepublik China
+B (BM–BO, BP, BQ, BU–BX);Republik China (Taiwan)
+CA–CE;Chile
+CF–CK;Kanada
+CL–CM;Kuba
+CN;Marokko
+CO;Kuba
+CP;Bolivien
+CQ–CU;Portugal
+CV–CX;Uruguay
+CY–CZ;Kanada
+C2;Nauru
+C3;Andorra
+C4;Zypern
+C5;Gambia
+C6;Bahamas
+C7;Weltorganisation für Meteorologie
+C8–C9;Mosambik
+DA–DR;Deutschland
+DS–DT;Südkorea
+DU–DZ;Philippinen
+D0–D1;Volksrepublik Donezk
+D2–D3;Angola
+D4;Kap Verde
+D5;Liberia
+D6;Komoren
+D7–D9;Südkorea
+EA–EH;Spanien
+EI–EJ;Irland
+EK;Armenien
+EL;Liberia
+EM–EO;Ukraine
+EP–EQ;Iran
+ER;Moldawien
+ES;Estland
+ET;Äthiopien
+EU–EW;Belarus
+EX;Kirgisistan
+EY;Tadschikistan
+EZ;Turkmenistan
+E2;Thailand
+E3;Eritrea
+E4;Palästinensische Autonomiegebiete
+E5;Cookinseln
+E7;Bosnien und Herzegowina
+F;Frankreich (und seine Übersee-Départements/Französische Überseegebiete)
+G;Vereinigtes Königreich (mit britischen Überseegebieten/Kronbesitzungen der britischen Krone)
+HA;Ungarn
+HB;Schweiz ohne HB0 und HBL
+HB0, HBL;Liechtenstein (benutzt Präfix der Schweiz HB gefolgt von 0 und L)
+HC–HD;Ecuador
+HE;Schweiz
+HF;Polen
+HG;Ungarn
+HH;Haiti
+HI;Dominikanische Republik
+HJ–HK;Kolumbien
+HL;Südkorea
+HM;Nordkorea
+HN;Irak
+HO–HP;Panama
+HQ–HR;Honduras
+HS;Thailand
+HT;Nicaragua
+HU;El Salvador
+HV;Vatikanstadt
+HW–HY;Frankreich (und seine Übersee-Départements/Französische Überseegebiete)
+HZ;Saudi–Arabien
+H2;Republik Zypern
+H3;Panama
+H4;Salomonen
+H6–H7;Nicaragua
+H8–H9;Panama (H9: in den Anfängen vor 1930 Schweiz)
+I;Italien
+JA–JS;Japan
+JT–JV;Mongolei
+JW–JX;Norwegen
+JY;Jordanien
+JZ;Indonesien
+J2;Dschibuti
+J3;Grenada
+J4;Griechenland
+J5;Guinea–Bissau
+J6;St. Lucia
+J7;Dominica
+J8;St. Vincent und die Grenadinen
+K;Vereinigte Staaten von Amerika (USA)
+LA–LN;Norwegen
+LO–LW;Argentinien
+LX;Luxemburg
+LY;Litauen
+LZ;Bulgarien
+L2–L9;Argentinien
+M;Vereinigtes Königreich (mit britischen Überseegebieten/Kronbesitzungen der britischen Krone)
+N;Vereinigte Staaten von Amerika (USA)
+OA–OC;Peru
+OD;Libanon
+OE;Österreich
+OF–OJ;Finnland
+OK–OL;Tschechien
+OM;Slowakei
+ON–OT;Belgien
+OU–OZ;Dänemark
+PA–PI;Niederlande
+PJ;Niederländische Antillen
+PK–PO;Indonesien
+PP–PY;Brasilien
+PZ;Suriname
+P2;Papua–Neuguinea
+P3;Republik Zypern
+P4;Aruba
+P5–P9;Nordkorea
+R;Russland
+SA–SM;Schweden
+SN–SR;Polen
+SSA–SSM;Ägypten
+SSN–STZ;Sudan
+SU;Ägypten
+SV–SZ;Griechenland
+S0;Demokratische Arabische Republik Sahara
+S2–S3;Bangladesch
+S5;Slowenien
+S6;Singapur
+S7;Seychellen
+S8;Südafrika
+S9;São Tomé und Príncipe
+TA–TC;Türkei
+TD;Guatemala
+TE;Costa Rica
+TF;Island
+TG;Guatemala
+TH;Frankreich (und seine Übersee-Départements/Französische Überseegebiete)
+TI;Costa Rica
+TJ;Kamerun
+TK;Frankreich (und seine Übersee-Départements/Französische Überseegebiete)
+TL;Zentralafrikanische Republik
+TM;Frankreich (und seine Übersee-Départements/Französische Überseegebiete)
+TN;Republik Kongo
+TO–TQ;Frankreich (und seine Übersee-Départements/Französische Überseegebiete)
+TR;Gabun
+TS;Tunesien
+TT;Tschad
+TU;Elfenbeinküste
+TV–TX;Frankreich (und seine Übersee-Départements/Französische Überseegebiete)
+TY;Benin
+TZ;Mali
+T2;Tuvalu
+T3;Kiribati
+T4;Kuba
+T5;Somalia
+T6;Afghanistan
+T7;San Marino
+T8;Palau
+UA–UI;Russland
+UJ–UM;Usbekistan
+UN–UQ;Kasachstan
+UR–UZ;Ukraine
+VA–VG;Kanada
+VH–VN;Australien
+VO;Kanada (früher Neufundland (Dominion))
+VP–VQ;Vereinigtes Königreich (mit britischen Überseegebieten/Kronbesitzungen der britischen Krone)
+VR;China (Hongkong)
+VS;Vereinigtes Königreich
+VT–VW;Indien
+VX–VY;Kanada
+VZ;Australien
+V2;Antigua und Barbuda
+V3;Belize
+V4;St. Kitts und Nevis
+V5;Namibia
+V6;Föderierte Staaten von Mikronesien
+V7;Marshallinseln
+V8;Brunei
+W;Vereinigte Staaten von Amerika (USA)
+XJ–XO;Kanada
+XP;Dänemark
+XQ–XR;Chile
+XS;Volksrepublik China
+XT;Burkina Faso
+XU;Kambodscha
+XV;Vietnam
+XW;Laos
+XX;Volksrepublik China — Macau
+XY–XZ;Myanmar
+YA;Afghanistan
+YB–YH;Indonesien
+YI;Irak
+YJ;Vanuatu
+YK;Syrien
+YL;Lettland
+YM;Türkei
+YN;Nicaragua
+YO–YR;Rumänien
+YS;El Salvador
+YT–YU;Serbien
+YV–YY;Venezuela
+Y2–Y9;Deutschland (ehemals Deutsche Demokratische Republik)
+ZA;Albanien
+ZB;Gibraltar
+ZB–ZJ;Vereinigtes Königreich (mit britischen Überseegebieten/Kronbesitzungen der britischen Krone)
+ZK–ZM;Neuseeland
+ZN–ZO;Vereinigtes Königreich (mit britischen Überseegebieten/Kronbesitzungen der britischen Krone)
+ZP;Paraguay
+ZQ;Vereinigtes Königreich (mit britischen Überseegebieten/Kronbesitzungen der britischen Krone)
+ZR–ZU;Südafrika
+ZV–ZZ;Brasilien
+Z2;Simbabwe
+Z3;Mazedonien
+Z6 (16. Mai 2018 offiziell von der Internationalen Fernmeldeunion verboten)[2];Kosovo
+Z8;Südsudan
+1A;Souveräner Malteserorden
+1B;Türkische Republik Nordzypern
+1S;Spratly-Inseln
+2;Vereinigtes Königreich (mit britischen Überseegebieten/Kronbesitzungen der britischen Krone)
+3A;Monaco
+3B;Mauritius
+3C;Äquatorialguinea
+3DA–3DM;Eswatini
+3DN–3DZ;Fidschi
+3E–3F;Panama
+3G;Chile
+3H–3U;Volksrepublik China
+3V;Tunesien
+3W;Vietnam
+3X;Guinea
+3Y;Norwegen
+3Z;Polen
+4A–4C;Mexiko
+4D–4I;Philippinen
+4J–4K;Aserbaidschan
+4L;Georgien
+4M;Venezuela
+4O;Montenegro
+4P–4S;Sri Lanka
+4T;Peru
+4U;Vereinte Nationen
+4V;Haiti
+4W;Osttimor
+4X;Israel
+4Y;Internationale Zivilluftfahrtorganisation
+4Z;Israel
+5A;Libyen
+5B;Republik Zypern
+5C–5G;Marokko
+5H–5I;Tansania
+5J–5K;Kolumbien
+5L–5M;Liberia
+5N–5O;Nigeria
+5P–5Q;Dänemark
+5R–5S;Madagaskar
+5T;Mauretanien
+5U;Niger
+5V;Togo
+5W;Samoa
+5X;Uganda
+5Y–5Z;Kenia
+6A–6B;Ägypten
+6C;Syrien
+6D–6J;Mexiko
+6K–6N;Südkorea
+6O;Somalia
+6P–6S;Pakistan
+6T–6U;Sudan
+6V–6W;Senegal
+6X;Madagaskar
+6Y;Jamaika
+6Z;Liberia
+7A–7I;Indonesien
+7J–7N;Japan
+7O;Jemen
+7P;Lesotho
+7Q;Malawi
+7R;Algerien
+7S;Schweden
+7T–7Y;Algerien
+7Z;Saudi-Arabien
+8A–8I;Indonesien
+8J–8N;Japan
+8O;Botswana
+8P;Barbados
+8Q;Malediven
+8R;Guyana
+8S;Schweden
+8T–8Y;Indien
+8Z;Saudi-Arabien
+9A;Kroatien
+9B–9D;Iran
+9E–9F;Äthiopien
+9G;Ghana
+9H;Malta
+9I–9J;Sambia
+9K;Kuwait
+9L;Sierra Leone
+9M;Malaysia
+9N;Nepal
+9O–9T;Demokratische Republik Kongo
+9U;Burundi
+9V;Singapur
+9W;Malaysia
+9X;Ruanda
+9Y–9Z;Trinidad und Tobago

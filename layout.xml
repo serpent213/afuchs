@@ -1,0 +1,124 @@
+<Layout xmlns="urn:speedata.de:2009/publisher/en"
+  xmlns:sd="urn:speedata:2009/publisher/functions/en">
+
+  <!-- Grundeinstellungen, Seitenformat und Schriftarten -->
+  <Options mainlanguage="German" />
+  <Pageformat width="297mm" height="210mm" />
+
+  <!--
+  Noto ist eine der wenigen proportionalen Schriftarten, die die Ziffer "0" mit einem
+  Querstrich enthalten, um sie eindeutig von einem großen "O" unterscheiden zu können.
+
+  https://fonts.google.com/noto
+  -->
+  <LoadFontfile name="NotoSans-Regular" filename="NotoSans-Regular.ttf" />
+  <LoadFontfile name="NotoSans-Bold" filename="NotoSans-Bold.ttf" />
+
+  <DefineFontfamily name="header" fontsize="9" leading="11">
+    <Regular fontface="NotoSans-Regular" />
+  </DefineFontfamily>
+  <DefineFontfamily name="title" fontsize="10" leading="12">
+    <Regular fontface="NotoSans-Bold" />
+  </DefineFontfamily>
+  <DefineFontfamily name="text" fontsize="10" leading="12">
+    <Regular fontface="NotoSans-Regular" />
+  </DefineFontfamily>
+  <DefineFontfamily name="footer" fontsize="9" leading="11">
+    <Regular fontface="NotoSans-Regular" />
+  </DefineFontfamily>
+
+  <!-- Layout-Bereiche -->
+  <Pagetype name="page" test="true()">
+    <Margin left="10mm" right="10mm" top="10mm" bottom="10mm" />
+    <Grid nx="32" ny="20" />
+    <PositioningArea name="content">
+      <PositioningFrame width="10" height="19" row="2" column="1" />
+      <PositioningFrame width="10" height="19" row="2" column="12" />
+      <PositioningFrame width="10" height="19" row="2" column="23" />
+    </PositioningArea>
+    <AtPageCreation>
+      <PlaceObject row="1" column="1">
+        <Textblock textformat="left" width="16" fontfamily="header">
+          <Paragraph>
+            <Value>Amateurfunk Cheat Sheet V</Value>
+            <Value select="$version" />
+          </Paragraph>
+        </Textblock>
+      </PlaceObject>
+      <PlaceObject row="1" column="17">
+        <Textblock textformat="right" fontfamily="header">
+          <Paragraph>
+            <Value>2023 Steffen Beyer</Value>
+          </Paragraph>
+        </Textblock>
+      </PlaceObject>
+      <PlaceObject>
+        <Transformation matrix="1 0 0 1 0 15">
+          <Rule direction="horizontal" length="32" rulewidth="0.6pt" />
+        </Transformation>
+      </PlaceObject>
+    </AtPageCreation>
+  </Pagetype>
+
+  <!-- Inhalte -->
+  <Record element="data">
+    <ProcessNode select="*" />
+  </Record>
+
+  <Record element="table">
+    <PlaceObject area="content">
+      <Textblock fontfamily="title">
+        <Paragraph>
+          <Value select="@title" />
+        </Paragraph>
+      </Textblock>
+    </PlaceObject>
+    <PlaceObject area="content">
+      <Table padding="2pt" stretch="max">
+        <!-- <Message select="local-name()"></Message>
+        <Message select="count(./row)"></Message>
+        <Message select="count(row)"></Message>
+        <Message select="count(row[1])"></Message>
+        <Message select="count(./row[1]/cell)"></Message>
+        <Message select="count(row[1]/cell)"></Message>
+        <Message select="count(//row[1]/cell)"></Message>
+        <Message select="count(//row[1]/*)"></Message> -->
+        <!-- <Tr valign="top">
+          <Td colspan="2">
+            <Paragraph>
+              <Value select="@title" />
+            </Paragraph>
+          </Td>
+        </Tr> -->
+        <ForAll select="row">
+          <Switch>
+            <Case test="position() = 1">
+              <Tablehead>
+                <Tr valign="top" backgroundcolor="#ddd">
+                  <ForAll select="cell">
+                    <Td border-bottom="0.6pt">
+                      <Paragraph>
+                        <Value select="." />
+                      </Paragraph>
+                    </Td>
+                  </ForAll>
+                </Tr>
+              </Tablehead>
+            </Case>
+            <Otherwise>
+              <Tr valign="top">
+                <ForAll select="cell">
+                  <Td>
+                    <Paragraph>
+                      <Value select="." />
+                    </Paragraph>
+                  </Td>
+                </ForAll>
+              </Tr>
+            </Otherwise>
+          </Switch>
+        </ForAll>
+      </Table>
+    </PlaceObject>
+  </Record>
+</Layout>
