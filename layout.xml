@@ -43,22 +43,31 @@
     </PositioningArea>
     <AtPageCreation>
       <PlaceObject row="1" column="1">
-        <Textblock textformat="left" width="16" fontfamily="header">
-          <Paragraph>
-            <Value>Amateurfunk Cheat Sheet V</Value>
-            <Value select="$version" />
-          </Paragraph>
-        </Textblock>
+        <Overlay>
+          <Textblock textformat="left" fontfamily="header">
+            <Paragraph>
+              <Value>Amateurfunk Cheat Sheet V</Value>
+              <Value select="$version" />
+            </Paragraph>
+          </Textblock>
+          <Position x="0" y="0">
+            <Textblock textformat="centered" fontfamily="header">
+              <Paragraph>
+                <Value>0Z0BSP</Value>
+              </Paragraph>
+            </Textblock>
+          </Position>
+          <Position x="0" y="0">
+            <Textblock textformat="right" fontfamily="header">
+              <Paragraph>
+                <Value>2023 Steffen Beyer</Value>
+              </Paragraph>
+            </Textblock>
+          </Position>
+        </Overlay>
       </PlaceObject>
-      <PlaceObject row="1" column="17">
-        <Textblock textformat="right" fontfamily="header">
-          <Paragraph>
-            <Value>2023 Steffen Beyer</Value>
-          </Paragraph>
-        </Textblock>
-      </PlaceObject>
-      <PlaceObject>
-        <Transformation matrix="1 0 0 1 0 15">
+      <PlaceObject row="1" column="1">
+        <Transformation matrix="1 0 0 1 0 -11.5">
           <Rule direction="horizontal" length="32" rulewidth="0.6pt" />
         </Transformation>
       </PlaceObject>
@@ -86,8 +95,8 @@
   </Record>
 
   <Record element="table">
-    <!-- <Message
-      select="concat('current-row: ', sd:current-row('content')), '/', sd:number-of-rows('content')" /> -->
+    <Message
+      select="concat('current-row: ', sd:current-row('content')), '/', sd:number-of-rows('content')" />
     <Switch>
       <Case test="sd:number-of-rows('content') - sd:current-row('content') &lt; $orphan_threshold">
         <NextFrame area="content" />
