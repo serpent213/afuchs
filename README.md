@@ -1,10 +1,20 @@
-# AFuChS – Amateurfunk Cheat Sheet
+# AFuchs – Amateurfunk Cheat Sheet
 
 von Steffen Beyer im Jahre 2023
 
 Aktuell im Alpha-Zustand. Alle Daten ohne Gewähr, versteht sich.
 
-## Einfach benutzen
+## Einleitung
+
+### Was?
+
+AFuchs ist eine Sammlung von Datensätzen (Tabellen) in Kombination mit einem Generator,
+um aus diesen ein individuell maßgeschneidertes PDF für den Druck zu erstellen. Das
+Programm soll es jedem Amateurfunker ermöglichen, mit wenig Aufwand und ohne Spezialwissen
+ein „Cheat Sheet“ zu generieren, ein wenige Seiten umfassendes Nachschlagewerk – man
+könnte auch Spickzettel sagen.
+
+### Einfach benutzen
 
 Normalerweise werden zwei Versionen erzeugt:
 
@@ -15,25 +25,40 @@ Normalerweise werden zwei Versionen erzeugt:
 
 Diese können einfach heruntergeladen und ausgedruckt werden.
 
+Ziel der Entwicklung ist jedoch vorrangig, es einfach zu machen, die Datensätze anzupassen,
+zu ergänzen und beliebig zu kombinieren. Wie das geht wird im folgenden Abschnitt
+beschrieben.
+
 *73*
 
-## Anpassen
+## Anpassung
 
 ### speedata Publisher
 
 [speedata Publisher Download](https://download.speedata.de)
 
+Zur automatischen Erzeugung des PDFs wird das hervorragende Programm *speedata Publisher*
+verwendet (basierend auf *LuaTeX*), das kostenlos heruntergeladen werden kann. Es sollte
+nach der Installation auf der Kommandozeile als `sp` verfügbar sein.
+
 ### Einstellungen
 
 `afuchs.ini`
+
+In der INI-Datei wird im wesentlichen festgelegt, welche CSV-Dateien in welcher Reihenfolge
+in die PDF-Datei geschrieben werden sollen.
 
 ### CSV-Dateien
 
 `*.csv`
 
+Die CSV-Dateien können in jedem Texteditor oder in einer Tabellenkalkulation wie *Excel*
+oder *Numbers* bearbeitet werden. Als Trennzeichen wird das Semikolon (`;`) verwendet,
+hier kann je nach Programm eine manuelle Einstellung notwendig sein.
+
 ### PDF erzeugen
 
-`sp` im Wurzelverzeichnis ausführen.
+`sp` im Wurzelverzeichnis ausführen, `afuchs.pdf` wird aktualisiert.
 
 ## Quellen
 
