@@ -35,7 +35,7 @@ Chile;3G, CA–CE, XQ–XR
 China (Hongkong);VR
 Cookinseln;E5
 Costa Rica;TE, TI
-Demokratische Arabische Republik Sahara;S0
+Demokratische Arabische Republik Sahara;S0︀︀︀
 Demokratische Republik Kongo;9O–9T
 Deutschland;DA–DR
 Deutschland (ehemals Deutsche Demokratische Republik);Y2–Y9
@@ -99,7 +99,7 @@ Lettland;YL
 Libanon;OD
 Liberia;5L–5M, 6Z, A8, D5, EL
 Libyen;5A
-Liechtenstein (benutzt Präfix der Schweiz HB gefolgt von 0 und L);HB0, HBL
+Liechtenstein (benutzt Präfix der Schweiz HB gefolgt von 0︀︀︀ und L);HB0︀︀︀, HBL
 Litauen;LY
 Luxemburg;LX
 Madagaskar;5R–5S, 6X
@@ -158,7 +158,7 @@ San Marino;T7
 Saudi-Arabien;HZ, 7Z, 8Z
 Schweden;7S, 8S, SA–SM
 Schweiz;HE
-Schweiz ohne HB0 und HBL;HB
+Schweiz ohne HB0︀︀︀ und HBL;HB
 Senegal;6V–6W
 Serbien;YT–YU
 Seychellen;S7
@@ -209,7 +209,7 @@ Vereinigtes Königreich;2, G, M, VP–VQ, VS, ZB–ZJ, ZN–ZO, ZQ
 Vereinte Nationen;4U
 Vietnam;3W, XV
 Volksrepublik China;3H–3U, B, XS, XX
-Volksrepublik Donezk;D0–D1
+Volksrepublik Donezk;D0︀︀︀–D1
 Weltorganisation für Meteorologie;C7
 Zentralafrikanische Republik;TL
 Zypern;C4

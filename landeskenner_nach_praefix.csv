@@ -34,7 +34,7 @@ C8–C9;Mosambik
 DA–DR;Deutschland
 DS–DT;Südkorea
 DU–DZ;Philippinen
-D0–D1;Volksrepublik Donezk
+D0︀︀︀–D1;Volksrepublik Donezk
 D2–D3;Angola
 D4;Kap Verde
 D5;Liberia
@@ -61,8 +61,8 @@ E7;Bosnien und Herzegowina
 F;Frankreich (und seine Übersee-Départements/Französische Überseegebiete)
 G;Vereinigtes Königreich (mit britischen Überseegebieten/Kronbesitzungen der britischen Krone)
 HA;Ungarn
-HB;Schweiz ohne HB0 und HBL
-HB0, HBL;Liechtenstein (benutzt Präfix der Schweiz HB gefolgt von 0 und L)
+HB;Schweiz ohne HB0︀︀︀ und HBL
+HB0︀︀︀, HBL;Liechtenstein (benutzt Präfix der Schweiz HB gefolgt von 0︀︀︀ und L)
 HC–HD;Ecuador
 HE;Schweiz
 HF;Polen
@@ -132,7 +132,7 @@ SSA–SSM;Ägypten
 SSN–STZ;Sudan
 SU;Ägypten
 SV–SZ;Griechenland
-S0;Demokratische Arabische Republik Sahara
+S0︀︀︀;Demokratische Arabische Republik Sahara
 S2–S3;Bangladesch
 S5;Slowenien
 S6;Singapur
@@ -221,7 +221,7 @@ ZR–ZU;Südafrika
 ZV–ZZ;Brasilien
 Z2;Simbabwe
 Z3;Mazedonien
-Z6 (16. Mai 2018 offiziell von der Internationalen Fernmeldeunion verboten)[2];Kosovo
+Z6;Kosovo
 Z8;Südsudan
 1A;Souveräner Malteserorden
 1B;Türkische Republik Nordzypern
