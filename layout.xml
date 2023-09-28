@@ -45,9 +45,9 @@
       <PlaceObject row="1" column="1">
         <Table fontfamily="header" stretch="max">
           <Columns>
-            <Column align="left" width="8" />
-            <Column align="center" width="16" />
-            <Column align="right" width="8" />
+            <Column align="left" width="1*" />
+            <Column align="center" width="2*" />
+            <Column align="right" width="1*" />
           </Columns>
           <Tr>
             <Td>
@@ -58,7 +58,7 @@
             </Td>
             <Td>
               <Paragraph>
-                <Value select="$eigene_kennung" />
+                <Value select="if (sd:variable-exists('eigene_kennung')) then $eigene_kennung else ''" />
               </Paragraph>
             </Td>
             <Td>
