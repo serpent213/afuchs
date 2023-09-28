@@ -46,7 +46,7 @@ nach der Installation auf der Kommandozeile als `sp` verfügbar sein.
 `afuchs.ini`
 
 In der INI-Datei wird im wesentlichen festgelegt, welche CSV-Dateien in welcher Reihenfolge
-in die PDF-Datei geschrieben werden sollen.
+in die PDF-Datei übertragen werden sollen.
 
 ### CSV-Dateien
 

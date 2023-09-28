@@ -43,33 +43,35 @@
     </PositioningArea>
     <AtPageCreation>
       <PlaceObject row="1" column="1">
-        <Overlay>
-          <Textblock textformat="left" fontfamily="header">
-            <Paragraph>
-              <Value>Amateurfunk Cheat Sheet V</Value>
-              <Value select="$version" />
-            </Paragraph>
-          </Textblock>
-          <Position x="0" y="0">
-            <Textblock textformat="centered" fontfamily="header">
+        <Table fontfamily="header" stretch="max">
+          <Columns>
+            <Column align="left" width="8" />
+            <Column align="center" width="16" />
+            <Column align="right" width="8" />
+          </Columns>
+          <Tr>
+            <Td>
+              <Paragraph>
+                <Value>Amateurfunk Cheat Sheet V</Value>
+                <Value select="$version" />
+              </Paragraph>
+            </Td>
+            <Td>
               <Paragraph>
                 <Value>0Z0BSP</Value>
               </Paragraph>
-            </Textblock>
-          </Position>
-          <Position x="0" y="0">
-            <Textblock textformat="right" fontfamily="header">
+            </Td>
+            <Td>
               <Paragraph>
                 <Value>2023 Steffen Beyer</Value>
               </Paragraph>
-            </Textblock>
-          </Position>
-        </Overlay>
-      </PlaceObject>
-      <PlaceObject row="1" column="1">
-        <Transformation matrix="1 0 0 1 0 -11.5">
-          <Rule direction="horizontal" length="32" rulewidth="0.6pt" />
-        </Transformation>
+            </Td>
+          </Tr>
+          <!-- unsichtbare Linie als Abstandshalter -->
+          <Tablerule rulewidth="0.6pt" color="-" />
+          <!-- Trennlinie unter dem Kopfbereich -->
+          <Tablerule rulewidth="0.6pt" />
+        </Table>
       </PlaceObject>
     </AtPageCreation>
   </Pagetype>
@@ -95,10 +97,12 @@
   </Record>
 
   <Record element="table">
-    <Message
-      select="concat('current-row: ', sd:current-row('content')), '/', sd:number-of-rows('content')" />
+    <!-- Variable ist hier notwendig als Workaround (sp v4.14.0/4.15.4, s.a.
+      https://github.com/speedata/publisher/issues/517#issuecomment-1727546346 -->
+    <SetVariable variable="rows_left"
+      select="sd:number-of-rows('content') - sd:current-row('content')" />
     <Switch>
-      <Case test="sd:number-of-rows('content') - sd:current-row('content') &lt; $orphan_threshold">
+      <Case test="$rows_left &lt; $orphan_threshold">
         <NextFrame area="content" />
       </Case>
     </Switch>

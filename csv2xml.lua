@@ -23,8 +23,7 @@ runtime = require("runtime")
 csv = require("csv")
 xml = require("xml")
 
-local eingaben = runtime.variables.eingaben
-
+eingaben = runtime.variables.eingaben
 mergedTabs = {}
 for name in string.gmatch(eingaben, "[^,%s]+") do
   local filename = name .. ".csv"
