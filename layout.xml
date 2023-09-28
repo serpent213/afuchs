@@ -58,7 +58,7 @@
             </Td>
             <Td>
               <Paragraph>
-                <Value>0Z0BSP</Value>
+                <Value select="$eigene_kennung" />
               </Paragraph>
             </Td>
             <Td>
@@ -143,6 +143,8 @@
             </Otherwise>
           </Switch>
         </ForAll>
+        <!-- Mindestabstand unter Tabelle erzwingen -->
+        <Tablerule rulewidth="3mm" color="-" />
       </Table>
     </PlaceObject>
   </Record>
