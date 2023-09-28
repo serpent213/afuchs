@@ -20,7 +20,7 @@ Normalerweise werden zwei Versionen erzeugt:
 
 *(in Planung)*
 
-* `afuchs.pdf`: Enthält alle Landeskenner (insgesamt 6 Seiten)
+* [`afuchs.pdf`](https://github.com/serpent213/afuchs/blob/master/afuchs.pdf): Enthält alle Landeskenner (insgesamt 6 Seiten)
 * `afuchs_kurz.pdf`: Enthält eine kurze Auswahl der Landeskenner (insgesamt 2 Seiten)
 
 Diese können einfach heruntergeladen und ausgedruckt werden.
